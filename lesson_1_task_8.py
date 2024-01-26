@@ -1,20 +1,14 @@
-def numA():
-    print(8)
-    print(8)
-    numB()
-    numB()
-    numC()
-    numC()
-    numC()
-    numD()
-    numC()
-    numD()
-    numC()
-def numB():
-    print(0)
-def numC():
-    print(5)
-def numD():
-    print(3)
+def func (x = input("Для продолжения нажмите любую клавишу")):
+    print(x)
 
-numA()
+func(8)
+func(8)
+func(0)
+func(0)
+func(5)
+func(5)
+func(5)
+func(3)
+func(5)
+func(3)
+func(5)
