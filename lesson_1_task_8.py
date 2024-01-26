@@ -1,14 +1,20 @@
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
-print(numbers[7])
-print(numbers[7])
-print(numbers[9])
-print(numbers[9])
-print(numbers[4])
-print(numbers[4])
-print(numbers[4])
-print(numbers[2])
-print(numbers[4])
-print(numbers[2])
-print(numbers[4])
+def numA():
+    print(8)
+    print(8)
+    numB()
+    numB()
+    numC()
+    numC()
+    numC()
+    numD()
+    numC()
+    numD()
+    numC()
+def numB():
+    print(0)
+def numC():
+    print(5)
+def numD():
+    print(3)
 
-    
+numA()
